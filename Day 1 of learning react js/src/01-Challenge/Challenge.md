@@ -1,5 +1,6 @@
-## Challenge one
-- Create your own custom react component
+## Challenge 1
+
+## Create your own custom react component :
 - Call it "MainContent", and have it return a simple
 
 - h1 element that says "Iam learning react js"
