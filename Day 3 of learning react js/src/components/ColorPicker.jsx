@@ -13,7 +13,7 @@ const ColorPicker = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-8 bg-gradient-to-r from-gray-800 to-gray-900">
+    <div className="flex flex-col items-center justify-center min-h-screen px-8 bg-gray-800">
       <div className="bg-gray-800 p-8 rounded-3xl shadow-2xl w-full max-w-md text-center transition duration-500 ease-in-out transform hover:scale-105">
         {/* Header */}
         <h1 className="text-3xl font-extrabold text-white mb-6">
