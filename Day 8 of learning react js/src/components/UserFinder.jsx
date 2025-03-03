@@ -124,7 +124,7 @@ const UserFinder = () => {
             <img
               src={userData.avatar_url}
               alt={`${userData.login} avatar`}
-              className="mx-auto rounded-full w-32 h-32 object-cover mb-4"
+              className="mx-auto rounded-full size-32 object-cover mb-4"
             />
             <h4
               className={`text-xl font-semibold ${
