@@ -30,7 +30,11 @@ export default function ImageCarousel() {
   };
 
   return (
-    <div className={`min-h-screen flex flex-col justify-center items-center transition-all duration-300 ${darkMode ? "bg-gray-900" : "bg-blue-50"}`}>
+    <div
+      className={`min-h-screen flex flex-col justify-center items-center transition-all duration-300 ${
+        darkMode ? "bg-gray-900" : "bg-blue-50"
+      }`}
+    >
       {/* Dark Mode Toggle Button (Top Right Corner) */}
       <button
         onClick={toggleDarkMode}
